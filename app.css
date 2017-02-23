@@ -1,0 +1,22 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+}
+.box__line {
+  display: flex;
+  align-content: stretch;
+  flex: 0 1 25%;
+}
+.box__elem {
+  flex: 0 1 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+.box__elem_active {
+  background-color: grey;
+}
