@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="app.css">
   </head>
   <body>
-    <div class="box">
+    <!--<div class="box">
       <div class="box__line">
         <div class="box__elem">5</div>
         <div class="box__elem">9</div>
@@ -30,7 +30,42 @@
         <div class="box__elem">6</div>
         <div class="box__elem">15</div>
       </div>
+    </div> -->
+    <hr>
+    <form id="forom">
+      <div class="form__line">
+        <input type="text" name="name" id="name">
+        <label for="name">User Name</label>
+      </div>
+      <div class="form__line">
+        <input type="text" name="name" id="surname">
+        <label for="surname">User Surname</label>
+      </div>
+      <div class="form__line">
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+    <hr>
+    <div class="slider">
+      <div class="slider__elem slider__elem_left">
+        <div class="slider__title">Title</div>
+        <div class="slider__desc">Description of the slide</div>
+      </div>
+      <div class="slider__elem slider__elem_right">
+        <div class="slider__img-wrap">
+          <img src="https://images.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="slider__img">
+        </div>
+        <div class="slider__controls">
+          <button type="button" class="slider__btn slider__btn_left">prev</button>
+          <button type="button" class="slider__btn slider__btn_right">next</button>
+        </div>
+      </div>
     </div>
+
+
+    <script src="form.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
 
