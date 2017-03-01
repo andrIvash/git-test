@@ -49,8 +49,14 @@
   align-items: center;
 }
 .slider__img {
+  width: 100%;
+  height: 100%;
   max-width: 90%;
   max-height: 90%;
+  background-size: cover;
+}
+.slider__img_no-photo {
+  background: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTqCWIOo95mUrAJ9c6h3X4D2-4Blt5RfRt9d-csWH9wOIl3k9Wr') center center no-repeat;
 }
 .slider__controls {
   height: 30%;
@@ -62,6 +68,9 @@
   border: none;
   width: 50%;
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .slider__btn_left {
   margin-right: 3px;
